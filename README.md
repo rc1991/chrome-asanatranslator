@@ -1,1 +1,1 @@
-# chrome-asanatranslator
+# Asana Translator
