@@ -1,0 +1,20 @@
+ {
+    "name": "Asana Translator",
+    "description" : "This extension translates asana into your chrome language.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "default_locale": "en",
+	"background": {
+		"scripts": ["assets/js/background.js"]
+	},
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"*://app.asana.com/*"
+	],
+	"content_scripts": [{
+		"matches": ["*://app.asana.com/*"],
+		"js": ["assets/js/inject.js"]
+	}]
+  }	
