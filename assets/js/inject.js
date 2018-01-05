@@ -6,7 +6,8 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse)
 });
 var key_class_table = [
 	{key:"Board", className:"Tab", textContent:"Board"},
-	{key:"Conversations", className:"Tab", textContent:"Conversations"}
+	{key:"Conversations", className:"Tab", textContent:"Conversations"},
+	{key:"Team", className:"SidebarTeamsList-header", textContent:"Teams"}
 ];
 var key_id_table = [
 	{key:"Board", id: 1}

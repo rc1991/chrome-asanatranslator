@@ -6,5 +6,9 @@
 	"Conversations":{
 		"message":"會話",
 		"description":""
+	},
+	"Team":{
+		"message":"團隊",
+		"description":""
 	}
 }
